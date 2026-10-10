@@ -1,0 +1,43 @@
+.env
+.junie
+.claude
+.copilot
+
+# Environment and secrets
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets.json
+
+# Dependencies and generated builds
+node_modules/
+dist/
+build/
+.gradle/
+.kotlin/
+target/
+out/
+
+# Logs and local runtime files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.iml
+
+# AI assistant and agent files
+.agents/
+.cursor/
+.windsurf/
